@@ -5,6 +5,7 @@ import 'package:audioplayers/audioplayers.dart';
 class Sounds {
 // ...
   static String recentPath = '';
+  
   static AudioPlayer player = AudioPlayer();
   static void play(String path) {
     player.play(AssetSource(path));
